@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--favication-->
+    <link type="image/png" sizes="16x16" rel="icon" href="imgs/icons8-twitter-16.png">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--GOOGLE icons&fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Twitter</title>
+</head>
+<body>
+    <!--start header-->
+    <header>
+        <div class="nav-links">
+            <i class="fab fa-twitter twitter-icon"></i>
+            <a href="">
+                <i id="filled" class="material-icons">
+                    home
+                </i>
+                <i class="material-icons-outlined">
+                    home
+                </i>
+                <span>home</span>
+            </a>
+            <a href="">
+                <i id="filled" class="material-icons">
+                    tag
+                </i>
+                <i class="material-icons-outlined">
+                    tag
+                </i>
+                <span style="font-weight: 600;">explore</span>
+            </a>
+            <a href="">
+                <i id="filled" class="material-icons">
+                    notifications
+                </i>
+                <i class="material-icons-outlined">
+                    notifications
+                </i>
+                <span>Notifications </span>
+            </a>
+            <a href="">
+                <i id="filled" class="material-icons">
+                    email
+                </i>
+                <i class="material-icons-outlined">
+                    email
+                </i>
+                <span>Massages</span>
+            </a>
+            <a href="">
+                <i id="filled" class="material-icons">
+                    bookmark
+                </i>
+                <i class="material-icons-outlined">
+                    bookmark_border
+                </i>
+                <span>bookmarks</span>
+            </a>
+            <a href="">
+                <i id="filled" class="material-icons">
+                    list_alt
+                </i>
+                <i class="material-icons-outlined">
+                    list_alt
+                </i>
+                <span>lists</span>
+            </a>
+            <a href="">
+                <i id="filled" class="material-icons">
+                    person
+                </i>
+                <i class="material-icons-outlined">
+                    person
+                </i>
+                <span>profile</span>
+            </a>
+            <a href="">
+                <i id="filled" class="material-icons">
+                    more
+                </i>
+                <i class="material-icons-outlined">
+                    more_horiz
+                </i>
+                <span>More</span>
+            </a>
+            <button class="tweet-button">tweet</button>
+        </div>
+        <div class="main-account">
+            <a href="">
+            <img class="tweet-img" src="imgs/2022_08_18_20_51_IMG_4713.JPG" alt="">
+            <div class="account-details">
+                <span class="account-name">Belal Aboseada</span>
+                <span class="account-handle">@belal_hesham_0</span>
+            </div>
+            <i class="material-icons-outlined">
+                more_horiz
+            </i>
+            </a>
+        </div>
+    </header>
+    <!--end header-->
+    <main>
+        <div class="main-flex">
+            <div class="main-feed">
+              <div class="home-bar">
+                <span>Home</span>
+                <div class="light-theme">
+                    <i class="material-icons" id="icon">
+                        dark_mode
+                    </i>
+                </div>
+                </div> 
+            <div class="new-tweet">
+                <img class="tweet-img" src="imgs/2022_08_18_20_51_IMG_4713.JPG" alt="">
+                <div class="new-tweet-details">
+                    <input type="text" placeholder="what's happening?">
+                    <div class="new-tweet-actions">
+                    <ul>
+                        <li>
+                            <i class="material-icons" id="icon">
+                                image
+                            </i>
+                        </li>
+                        <li>
+                            <i class="material-icons" id="icon">
+                                gif-box
+                            </i>
+                        </li>
+                        <li>
+                            <i class="material-icons" id="icon">
+                                poll
+                            </i>
+                        </li>
+                        <li>
+                            <i class="material-icons" id="icon">
+                                sentiment_satisfied
+                            </i>
+                        </li>
+                        <li>
+                            <i class="material-icons" id="icon">
+                                event
+                            </i>
+                        </li>
+                        <li>
+                            <i class="material-icons-outlined" id="icon" style="opacity: 0.5;">
+                                location_on
+                            </i>
+                        </li>
+                    </ul>
+                    <button class="tweet-button">Tweet</button>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                        Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="feed-tweet">
+                <img class="tweet-img" src="imgs/unnamed.jpg" alt="">
+                <div class="feed-tweet-details">
+                    <div class="twitter-details">
+                        <a href="" class="twitter-name">
+                            Netflix Türkiye 
+                            <i class="material-icons">
+                                verified
+                            </i>
+                            <span class="twitter-handle">
+                                @netflixtürkiye_ . 14h
+                            </span>
+                        </a>
+                        <i class="material-icons-outlined">
+                            more_horiz
+                        </i>
+                    </div>
+                <div class="tweet-text">
+                    <p>
+                     Güneşin doğmasına 3 saat kaldı, sezonu bitirmek zorunda değilsin.
+                    </p>
+                    <span>#YakamozS245</span>
+                </div>
+                <div class="tweet-icons">
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        chat_bubble_outline
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        restart_alt
+                    </i>
+                    <p>2,533</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        favorite_border
+                    </i>
+                    <p>197</p>
+                    </div>
+                    <div class="tweet-icons-details">
+                    <i class="material-icons" id="icon">
+                        upload
+                    </i>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        <div class="side-feed">
+                <div class="search">
+                    <input type="text" placeholder="search twitter">
+                </div>
+                <div class="treanding">
+                    <h1 class="h1-title">Trends For You</h1>
+                    <div class="trending-items">
+                        <div class="item-category">
+                            <span>Politics · Trending</span>
+                            <i class="material-icons-outlined">
+                                more_horiz
+                            </i>
+                        </div>
+                        <p>Geceliği 100</p>
+                        <span>13.8K Tweets</span>
+                    </div>
+                    <div class="trending-items">
+                        <div class="item-category">
+                            <span>Politics · Trending</span>
+                            <i class="material-icons-outlined">
+                                more_horiz
+                            </i>
+                        </div>
+                        <p>Geceliği 100</p>
+                        <span>13.8K Tweets</span>
+                    </div>
+                    <div class="trending-items">
+                        <div class="item-category">
+                            <span>Politics · Trending</span>
+                            <i class="material-icons-outlined">
+                                more_horiz
+                            </i>
+                        </div>
+                        <p>Geceliği 100</p>
+                        <span>13.8K Tweets</span>
+                    </div>
+                    <div class="trending-items">
+                        <div class="item-category">
+                            <span>Politics · Trending</span>
+                            <i class="material-icons-outlined">
+                                more_horiz
+                            </i>
+                        </div>
+                        <p>Geceliği 100</p>
+                        <span>13.8K Tweets</span>
+                    </div>
+                    <div class="trending-items">
+                        <div class="item-category">
+                            <span>Politics · Trending</span>
+                            <i class="material-icons-outlined">
+                                more_horiz
+                            </i>
+                        </div>
+                        <p>Geceliği 100</p>
+                        <span>13.8K Tweets</span>
+                    </div>
+                    <div class="trending-items">
+                        <div class="item-category">
+                            <span>Politics · Trending</span>
+                            <i class="material-icons-outlined">
+                                more_horiz
+                            </i>
+                        </div>
+                        <p>Geceliği 100</p>
+                        <span>13.8K Tweets</span>
+                    </div>
+                    <a href="" class="show-more">show more</a>
+                </div>
+                <div class="follow">
+                    <h1 class="h1-title">
+                        Who to Follow
+                    </h1>
+                    <div class="follow-profile">
+                        <img class="tweet-img" src="imgs/Elon-Musk-2022.webp">
+                        <div class="following-details">
+                            <div class="follow-cont">
+                            <a href="">
+                                Elon Mask
+                            </a>
+                            <span>@elonmask_ <span id="follows">follows you</span></span>
+                        </div>
+                        </div>
+                        <button class="tweet-button">
+                                Follow
+                        </button>
+                    </div>
+                    <div class="follow-profile">
+                        <img class="tweet-img" src="imgs/Elon_Musk_Royal_Society_(crop2).jpg.webp">
+                        <div class="following-details">
+                            <div class="follow-cont">
+                            <a href="">
+                                Elon Mask
+                            </a>
+                            <span>@elonmask_ <span id="follows">follows you</span></span>
+                        </div>
+                        </div>
+                        <button class="tweet-button">
+                                Follow
+                        </button>
+                    </div>
+                    <a href="" class="show-more">show more</a>
+                </div>
+            </div>  
+        </div>
+    </main>
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function() {
+            document.body.classList.toggle("light-theme");
+            if (document.body.classList.contains("light-theme")) {
+                console.log("Light theme is on");
+            } else {
+                console.log("Light theme is off");
+            }
+        }
+    </script>
+</body>
+</html>
